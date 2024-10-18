@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.latest-match-container {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #0f172a;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.latest-match-c1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #475569;
+  padding: 10px 0px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-c1 {
+    border: 0px;
+    width: 30%;
+  }
+}
+p {
+  color: #fff;
+  font-family: 'Bree Serif';
+  margin: 10px 0px;
+}
+.latest-match-team-name {
+  font-size: 22px;
+  margin: 20px 0px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-team-name {
+    font-size: 28px;
+  }
+}
+.latest-match-date {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.latest-match-venue {
+  font-size: 12px;
+}
+.latest-match-result {
+  font-size: 12px;
+}
+.competing-team-logo-sm {
+  width: 70px;
+  margin-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-logo-sm {
+    display: none;
+  }
+}
+.competing-team-logo-lg {
+  width: 140px;
+}
+@media screen and (max-width: 767px) {
+  .competing-team-logo-lg {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .latest-match-c2 {
+    width: 30%;
+    text-align: right;
+  }
+}
+.title {
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 17px;
+  }
+}
+.title-name {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .title-name {
+    font-size: 14px;
+  }
+}
